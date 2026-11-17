@@ -4,10 +4,10 @@ source("lab1_3-5.R") # Оценка и тесты
 
 # Определяем, какие распределения мы проверяем для каждой выборки
 chosen_dists <- list(
-  X1 = c("normal", "lognormal", "uniform"),
-  X2 = c("lognormal", "gamma", "exp", "weibull", "normal", "chisq"),
-  X3 = c("normal", "lognormal", "weibull"),
-  X4 = c("gamma", "lognormal", "weibull"),
+  X1 = c("lognormal", "gamma", "weibull", "normal", "chisq"),
+  X2 = c("lognormal", "gamma", "weibull", "normal", "chisq"),
+  X3 = c("lognormal", "gamma", "weibull", "normal", "chisq", "exp"),
+  X4 = c("lognormal", "gamma", "weibull", "normal", "chisq", "uniform"),
   X5 = c("pois", "binom", "geom")
 )
 

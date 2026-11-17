@@ -3,6 +3,7 @@ library(moments)
 library(ggplot2)
 library(gridExtra)
 library(readr)
+library(patchwork)
 
 # ---- 1a. Импорт данных ----
 
