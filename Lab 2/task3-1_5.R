@@ -43,5 +43,3 @@ plot_hist <- function(df) {
   
   grid.arrange(p1, p2, ncol = 2)
 }
-
-source("task1-2a.R") # Для функции test_shapiro

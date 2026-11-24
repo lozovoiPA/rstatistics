@@ -3,6 +3,8 @@ source("task3-6.R")
 source("task3-7.R")
 source("task3-8.R")
 
+source("task1-2a.R") # Для функции test_shapiro
+
 # Данные:
 # Type, F - категориальные
 # Rent, M2, Total - количественные
